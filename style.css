@@ -1,0 +1,101 @@
+/* style.css */
+
+body {
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.chart-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    max-height: 400px;
+}
+
+@media (min-width: 768px) {
+    .chart-container {
+        height: 350px;
+    }
+}
+
+.tech-card:hover .tech-info {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.tab-active {
+    background-color: #0e5683;
+    color: #ffffff;
+}
+
+.roadmap-card {
+    transition: all 0.3s ease;
+}
+
+.roadmap-card:hover {
+    border-color: #9482a8;
+    transform: scale(1.02);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+body.dark {
+    background-color: #1a1a2e;
+    color: #f0f0f0;
+}
+
+body.dark .bg-gray-100 {
+    background-color: #1a1a2e;
+}
+
+body.dark .bg-white {
+    background-color: #24243e;
+    color: #f0f0f0;
+}
+
+body.dark .shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.12);
+}
+
+body.dark .text-gray-800 {
+    color: #f0f0f0;
+}
+
+body.dark .text-gray-600 {
+    color: #d1d5db;
+}
+
+body.dark .text-gray-500 {
+    color: #9ca3af;
+}
+
+body.dark .text-gray-900 {
+    color: #ffffff;
+}
+
+body.dark .border-gray-100 {
+    border-color: #3b3b5c;
+}
+
+body.dark .text-green-500 {
+    color: #4ade80;
+}
+
+body.dark .text-red-500 {
+    color: #f87171;
+}
+
+body.dark .tab-active {
+    background-color: #7b7490;
+}
+
+body.dark .roadmap-card:hover {
+    border-color: #655a7d;
+}
+
+body.dark .tech-info {
+    background-color: #806fa7;
+    color: #ffffff;
+}
