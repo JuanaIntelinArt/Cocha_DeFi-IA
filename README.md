@@ -1,7 +1,3 @@
-Claro. Aquí está la versión reescrita, adoptando una **terminología técnica y un formato profesional** propio de la documentación de un proyecto de desarrollo avanzado.
-
------
-
 # ⚙️ DeFi Autopilot Engine | Framework de Simulación Cuantitativa
 
 **DeFi Autopilot Engine** constituye un **Framework de Simulación Algorítmica de Trading (AAT)** diseñado específicamente para emular el comportamiento de un **Agente Autónomo de Inversión (Bot de IA)** dentro del ecosistema de las Finanzas Descentralizadas (DeFi). Este entorno *proof-of-concept* aprovecha la **API de Gemini** para la **generación de *market forecasting* y la síntesis de estrategias heurísticas**, complementado con tecnología **Text-to-Speech (TTS)** para la notificación dinámica de *runtime events*.
